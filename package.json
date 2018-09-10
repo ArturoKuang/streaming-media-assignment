@@ -1,0 +1,26 @@
+{
+  "name": "media-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+	"start": "node ./src/server.js",
+	"pretest": "eslint ./src --fix",
+	"test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axk4647/streaming-media-assignment.git"
+  },
+  "author": "arturo kuang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/axk4647/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/axk4647/streaming-media-assignment#readme",
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
